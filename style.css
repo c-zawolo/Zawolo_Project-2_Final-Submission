@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&family=Plaster&family=Viaoda+Libre&display=swap');
+
+
+html, body {
+  margin: 10 px;
+  padding: 0;
+  background-color: #F2E5CD;
+  font-family: "Glass Antiqua", serif;}
+
+h1{}
+
+p{
+  
+}
+
+canvas {
+  display: block;
+  margin: auto;
+}
+
+div{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: "#A48A5B";
+}
+  
+.title{
+  padding: 10 px;
+  letter-spacing:15 px;
+  font-size: 170%;
+  text-align: CENTER;
+  margin: auto;
+  border: 5px, solid, green;
+  
+}
+.userinterface{
+  padding: 5 px;
+  letter-spacing:15 px;
+  text-align: CENTER;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 70% 20%;
+  gap: 5%;
+}
+
+#canvoid{
+  padding: 10 px;
+  text-align: center;
+  margin: auto
+}
+
+button{
+  background-color: #F2E5CD;
+  color: #47564C;
+  border-style: ridge
+}
+
+#buttoid{
+  border: 1px solid #2E4937;
+  padding: auto;
+  margin: auto;
+  display: block;
+  width: 400 px;
+  height: 200px;
+}
+
+#artist-statement{
+  text-align: center;
+  margin: auto;
+  padding: auto;
+}
